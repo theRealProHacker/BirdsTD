@@ -1,0 +1,5 @@
+Camera3D
+MeshInstance3D
+ColorRect
+CollisionShape3D
+StaticBody3D

@@ -6,21 +6,13 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
-
-_global_script_classes=[ {
-"base": "EditorVCSInterface",
-"class": "GitAPI",
-"language": "NativeScript",
-"path": "res://addons/godot-git-plugin/git_api.gdns"
-} ]
-_global_script_class_icons={
-"GitAPI": ""
-}
+config_version=5
 
 [application]
 
 config/name="BirdsTD"
+run/main_scene="res://scenes/game.tscn"
+config/features=PackedStringArray("4.0")
 config/icon="res://icon.png"
 
 [autoload]
@@ -30,6 +22,10 @@ IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
 UserData="*res://addons/github-integration/scripts/user_data.gd"
 RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
 
+[dotnet]
+
+project/assembly_name="BirdsTD"
+
 [editor]
 
 version_control_autoload_on_startup=true
@@ -37,7 +33,7 @@ version_control_plugin_name="GitAPI"
 
 [editor_plugins]
 
-enabled=PoolStringArray(  )
+enabled=PackedStringArray()
 
 [gui]
 

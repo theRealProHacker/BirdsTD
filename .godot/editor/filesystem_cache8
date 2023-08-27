@@ -1,0 +1,17 @@
+2a60927148abd1d33b818b535e306557
+::res://::1679950969
+default_env.tres::Environment::-1::1671133187::0::1::::<><>::
+icon.png::CompressedTexture2D::5859780309555792866::1671133187::1672656633::1::::<><>::
+README.md::TextFile::-1::1671197573::0::1::::<><>::
+::res://addons/::1671185097
+::res://addons/godot-git-plugin/::1671133988
+plugin.cfg::TextFile::-1::1671133988::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1671133988::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1671133988
+::res://addons/godot-git-plugin/osx/::1671133988
+::res://addons/godot-git-plugin/win64/::1671133988
+::res://assets/::1679867552
+green.gdshader::Shader::-1::1679867552::0::1::::<><>::
+::res://assets/music/::1671663301
+::res://scenes/::1679864295
+game.tscn::PackedScene::7838494878643774670::1679864295::0::1::::<><>::
